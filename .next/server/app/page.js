@@ -89,6 +89,94 @@ module.exports = require("next/dist/compiled/next-server/app-page.runtime.dev.js
 
 /***/ }),
 
+/***/ "crypto":
+/*!*************************!*\
+  !*** external "crypto" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("crypto");
+
+/***/ }),
+
+/***/ "dns":
+/*!**********************!*\
+  !*** external "dns" ***!
+  \**********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("dns");
+
+/***/ }),
+
+/***/ "events":
+/*!*************************!*\
+  !*** external "events" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("events");
+
+/***/ }),
+
+/***/ "fs":
+/*!*********************!*\
+  !*** external "fs" ***!
+  \*********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("fs");
+
+/***/ }),
+
+/***/ "http":
+/*!***********************!*\
+  !*** external "http" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("http");
+
+/***/ }),
+
+/***/ "http2":
+/*!************************!*\
+  !*** external "http2" ***!
+  \************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("http2");
+
+/***/ }),
+
+/***/ "net":
+/*!**********************!*\
+  !*** external "net" ***!
+  \**********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("net");
+
+/***/ }),
+
+/***/ "os":
+/*!*********************!*\
+  !*** external "os" ***!
+  \*********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("os");
+
+/***/ }),
+
 /***/ "path":
 /*!***********************!*\
   !*** external "path" ***!
@@ -97,6 +185,39 @@ module.exports = require("next/dist/compiled/next-server/app-page.runtime.dev.js
 
 "use strict";
 module.exports = require("path");
+
+/***/ }),
+
+/***/ "process":
+/*!**************************!*\
+  !*** external "process" ***!
+  \**************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("process");
+
+/***/ }),
+
+/***/ "stream":
+/*!*************************!*\
+  !*** external "stream" ***!
+  \*************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("stream");
+
+/***/ }),
+
+/***/ "tls":
+/*!**********************!*\
+  !*** external "tls" ***!
+  \**********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("tls");
 
 /***/ }),
 
@@ -111,6 +232,28 @@ module.exports = require("url");
 
 /***/ }),
 
+/***/ "util":
+/*!***********************!*\
+  !*** external "util" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("util");
+
+/***/ }),
+
+/***/ "zlib":
+/*!***********************!*\
+  !*** external "zlib" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("zlib");
+
+/***/ }),
+
 /***/ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fpage&page=%2Fpage&appPaths=%2Fpage&pagePath=private-next-app-dir%2Fpage.js&appDir=E%3A%5Cpractice%5CPantry-tracker%5Capp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=E%3A%5Cpractice%5CPantry-tracker&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!":
 /*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fpage&page=%2Fpage&appPaths=%2Fpage&pagePath=private-next-app-dir%2Fpage.js&appDir=E%3A%5Cpractice%5CPantry-tracker%5Capp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=E%3A%5Cpractice%5CPantry-tracker&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D! ***!
@@ -122,13 +265,13 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
-/***/ "(ssr)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22E%3A%5C%5Cpractice%5C%5CPantry-tracker%5C%5Capp%5C%5Cpage.module.css%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22E%3A%5C%5Cpractice%5C%5CPantry-tracker%5C%5Cnode_modules%5C%5Cnext%5C%5Cdist%5C%5Cclient%5C%5Cimage-component.js%22%2C%22ids%22%3A%5B%5D%7D&server=true!":
-/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22E%3A%5C%5Cpractice%5C%5CPantry-tracker%5C%5Capp%5C%5Cpage.module.css%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22E%3A%5C%5Cpractice%5C%5CPantry-tracker%5C%5Cnode_modules%5C%5Cnext%5C%5Cdist%5C%5Cclient%5C%5Cimage-component.js%22%2C%22ids%22%3A%5B%5D%7D&server=true! ***!
-  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "(ssr)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22E%3A%5C%5Cpractice%5C%5CPantry-tracker%5C%5Capp%5C%5Cpage.js%22%2C%22ids%22%3A%5B%5D%7D&server=true!":
+/*!****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22E%3A%5C%5Cpractice%5C%5CPantry-tracker%5C%5Capp%5C%5Cpage.js%22%2C%22ids%22%3A%5B%5D%7D&server=true! ***!
+  \****************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("Promise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! ./node_modules/next/dist/client/image-component.js */ \"(ssr)/./node_modules/next/dist/client/image-component.js\", 23));\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LWZsaWdodC1jbGllbnQtZW50cnktbG9hZGVyLmpzP21vZHVsZXM9JTdCJTIycmVxdWVzdCUyMiUzQSUyMkUlM0ElNUMlNUNwcmFjdGljZSU1QyU1Q1BhbnRyeS10cmFja2VyJTVDJTVDYXBwJTVDJTVDcGFnZS5tb2R1bGUuY3NzJTIyJTJDJTIyaWRzJTIyJTNBJTVCJTVEJTdEJm1vZHVsZXM9JTdCJTIycmVxdWVzdCUyMiUzQSUyMkUlM0ElNUMlNUNwcmFjdGljZSU1QyU1Q1BhbnRyeS10cmFja2VyJTVDJTVDbm9kZV9tb2R1bGVzJTVDJTVDbmV4dCU1QyU1Q2Rpc3QlNUMlNUNjbGllbnQlNUMlNUNpbWFnZS1jb21wb25lbnQuanMlMjIlMkMlMjJpZHMlMjIlM0ElNUIlNUQlN0Qmc2VydmVyPXRydWUhIiwibWFwcGluZ3MiOiJBQUFBLHNOQUF1SCIsInNvdXJjZXMiOlsid2VicGFjazovL2ludmVudG9yeS1tYW5hZ2VtZW50Lz80NGExIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCgvKiB3ZWJwYWNrTW9kZTogXCJlYWdlclwiICovIFwiRTpcXFxccHJhY3RpY2VcXFxcUGFudHJ5LXRyYWNrZXJcXFxcbm9kZV9tb2R1bGVzXFxcXG5leHRcXFxcZGlzdFxcXFxjbGllbnRcXFxcaW1hZ2UtY29tcG9uZW50LmpzXCIpO1xuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(ssr)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22E%3A%5C%5Cpractice%5C%5CPantry-tracker%5C%5Capp%5C%5Cpage.module.css%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22E%3A%5C%5Cpractice%5C%5CPantry-tracker%5C%5Cnode_modules%5C%5Cnext%5C%5Cdist%5C%5Cclient%5C%5Cimage-component.js%22%2C%22ids%22%3A%5B%5D%7D&server=true!\n");
+eval("Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./app/page.js */ \"(ssr)/./app/page.js\"));\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LWZsaWdodC1jbGllbnQtZW50cnktbG9hZGVyLmpzP21vZHVsZXM9JTdCJTIycmVxdWVzdCUyMiUzQSUyMkUlM0ElNUMlNUNwcmFjdGljZSU1QyU1Q1BhbnRyeS10cmFja2VyJTVDJTVDYXBwJTVDJTVDcGFnZS5qcyUyMiUyQyUyMmlkcyUyMiUzQSU1QiU1RCU3RCZzZXJ2ZXI9dHJ1ZSEiLCJtYXBwaW5ncyI6IkFBQUEsc0lBQStFIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vaW52ZW50b3J5LW1hbmFnZW1lbnQvPzE3NjQiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0KC8qIHdlYnBhY2tNb2RlOiBcImVhZ2VyXCIgKi8gXCJFOlxcXFxwcmFjdGljZVxcXFxQYW50cnktdHJhY2tlclxcXFxhcHBcXFxccGFnZS5qc1wiKTtcbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(ssr)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22E%3A%5C%5Cpractice%5C%5CPantry-tracker%5C%5Capp%5C%5Cpage.js%22%2C%22ids%22%3A%5B%5D%7D&server=true!\n");
 
 /***/ }),
 
@@ -152,6 +295,17 @@ eval("Promise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__w
 
 /***/ }),
 
+/***/ "(ssr)/./app/page.js":
+/*!*********************!*\
+  !*** ./app/page.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Home)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/image */ \"(ssr)/./node_modules/next/dist/api/image.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _firebase_firestore__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @firebase/firestore */ \"(ssr)/./node_modules/@firebase/firestore/dist/index.node.mjs\");\n/* harmony import */ var _mui_system__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @mui/system */ \"(ssr)/./node_modules/@mui/system/esm/Box/Box.js\");\n/* harmony import */ var _barrel_optimize_names_Typography_mui_material__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! __barrel_optimize__?names=Typography!=!@mui/material */ \"(ssr)/./node_modules/@mui/material/Typography/Typography.js\");\n/* __next_internal_client_entry_do_not_use__ default auto */ \n\n\n\n\n\nfunction Home() {\n    const [inventory, setInventory] = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)([]);\n    const [open, setOpen] = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)([]);\n    const [itemName, setItemName] = \"\";\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_mui_system__WEBPACK_IMPORTED_MODULE_4__[\"default\"], {\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_barrel_optimize_names_Typography_mui_material__WEBPACK_IMPORTED_MODULE_5__[\"default\"], {\n            variant: \"h1\",\n            children: \"Inventory Management\"\n        }, void 0, false, {\n            fileName: \"E:\\\\practice\\\\Pantry-tracker\\\\app\\\\page.js\",\n            lineNumber: 15,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"E:\\\\practice\\\\Pantry-tracker\\\\app\\\\page.js\",\n        lineNumber: 14,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9hcHAvcGFnZS5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7O0FBQytCO0FBQ2E7QUFDSTtBQUNkO0FBQ1M7QUFFNUIsU0FBU007SUFDdEIsTUFBTSxDQUFDQyxXQUFXQyxhQUFhLEdBQUdQLCtDQUFRQSxDQUFDLEVBQUU7SUFDN0MsTUFBTSxDQUFDUSxNQUFNQyxRQUFRLEdBQUdULCtDQUFRQSxDQUFDLEVBQUU7SUFDbkMsTUFBTSxDQUFDVSxVQUFVQyxZQUFZLEdBQUc7SUFFaEMscUJBQ0UsOERBQUNSLG1EQUFHQTtrQkFDRiw0RUFBQ0Msc0ZBQVVBO1lBQUNRLFNBQVE7c0JBQUs7Ozs7Ozs7Ozs7O0FBRy9CIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vaW52ZW50b3J5LW1hbmFnZW1lbnQvLi9hcHAvcGFnZS5qcz9iZTY3Il0sInNvdXJjZXNDb250ZW50IjpbIlwidXNlIGNsaWVudFwiO1xuaW1wb3J0IEltYWdlIGZyb20gXCJuZXh0L2ltYWdlXCI7XG5pbXBvcnQgeyB1c2VTdGF0ZSwgdXNlRWZmZWN0IH0gZnJvbSBcInJlYWN0XCI7XG5pbXBvcnQgeyBGaXJlc3RvcmUgfSBmcm9tIFwiQGZpcmViYXNlL2ZpcmVzdG9yZVwiO1xuaW1wb3J0IHsgQm94IH0gZnJvbSBcIkBtdWkvc3lzdGVtXCI7XG5pbXBvcnQgeyBUeXBvZ3JhcGh5IH0gZnJvbSBcIkBtdWkvbWF0ZXJpYWxcIjtcblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gSG9tZSgpIHtcbiAgY29uc3QgW2ludmVudG9yeSwgc2V0SW52ZW50b3J5XSA9IHVzZVN0YXRlKFtdKTtcbiAgY29uc3QgW29wZW4sIHNldE9wZW5dID0gdXNlU3RhdGUoW10pO1xuICBjb25zdCBbaXRlbU5hbWUsIHNldEl0ZW1OYW1lXSA9IFwiXCI7XG5cbiAgcmV0dXJuIChcbiAgICA8Qm94PlxuICAgICAgPFR5cG9ncmFwaHkgdmFyaWFudD1cImgxXCI+SW52ZW50b3J5IE1hbmFnZW1lbnQ8L1R5cG9ncmFwaHk+XG4gICAgPC9Cb3g+XG4gICk7XG59XG4iXSwibmFtZXMiOlsiSW1hZ2UiLCJ1c2VTdGF0ZSIsInVzZUVmZmVjdCIsIkZpcmVzdG9yZSIsIkJveCIsIlR5cG9ncmFwaHkiLCJIb21lIiwiaW52ZW50b3J5Iiwic2V0SW52ZW50b3J5Iiwib3BlbiIsInNldE9wZW4iLCJpdGVtTmFtZSIsInNldEl0ZW1OYW1lIiwidmFyaWFudCJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(ssr)/./app/page.js\n");
+
+/***/ }),
+
 /***/ "(rsc)/./app/globals.css":
 /*!*************************!*\
   !*** ./app/globals.css ***!
@@ -159,17 +313,7 @@ eval("Promise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__w
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"35eb35b90563\");\nif (false) {}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9hcHAvZ2xvYmFscy5jc3MiLCJtYXBwaW5ncyI6Ijs7OztBQUFBLGlFQUFlLGNBQWM7QUFDN0IsSUFBSSxLQUFVLEVBQUUsRUFBdUIiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9pbnZlbnRvcnktbWFuYWdlbWVudC8uL2FwcC9nbG9iYWxzLmNzcz83MjQ4Il0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBkZWZhdWx0IFwiMzVlYjM1YjkwNTYzXCJcbmlmIChtb2R1bGUuaG90KSB7IG1vZHVsZS5ob3QuYWNjZXB0KCkgfVxuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(rsc)/./app/globals.css\n");
-
-/***/ }),
-
-/***/ "(rsc)/./app/page.module.css":
-/*!*****************************!*\
-  !*** ./app/page.module.css ***!
-  \*****************************/
-/***/ ((module) => {
-
-eval("// Exports\nmodule.exports = {\n\t\"main\": \"page_main__nw1Wk\",\n\t\"description\": \"page_description__lvaOp\",\n\t\"code\": \"page_code__9AfUJ\",\n\t\"grid\": \"page_grid__JZ9Cz\",\n\t\"card\": \"page_card__Cf__u\",\n\t\"center\": \"page_center__NcdcW\",\n\t\"logo\": \"page_logo__ikIZE\",\n\t\"content\": \"page_content___38fW\",\n\t\"vercelLogo\": \"page_vercelLogo__YYFl1\",\n\t\"rotate\": \"page_rotate__xIioM\"\n};\n\nmodule.exports.__checksum = \"beeb40a6f68c\"\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9hcHAvcGFnZS5tb2R1bGUuY3NzIiwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBOztBQUVBLHlCQUF5QiIsInNvdXJjZXMiOlsid2VicGFjazovL2ludmVudG9yeS1tYW5hZ2VtZW50Ly4vYXBwL3BhZ2UubW9kdWxlLmNzcz85Y2NjIl0sInNvdXJjZXNDb250ZW50IjpbIi8vIEV4cG9ydHNcbm1vZHVsZS5leHBvcnRzID0ge1xuXHRcIm1haW5cIjogXCJwYWdlX21haW5fX253MVdrXCIsXG5cdFwiZGVzY3JpcHRpb25cIjogXCJwYWdlX2Rlc2NyaXB0aW9uX19sdmFPcFwiLFxuXHRcImNvZGVcIjogXCJwYWdlX2NvZGVfXzlBZlVKXCIsXG5cdFwiZ3JpZFwiOiBcInBhZ2VfZ3JpZF9fSlo5Q3pcIixcblx0XCJjYXJkXCI6IFwicGFnZV9jYXJkX19DZl9fdVwiLFxuXHRcImNlbnRlclwiOiBcInBhZ2VfY2VudGVyX19OY2RjV1wiLFxuXHRcImxvZ29cIjogXCJwYWdlX2xvZ29fX2lrSVpFXCIsXG5cdFwiY29udGVudFwiOiBcInBhZ2VfY29udGVudF9fXzM4ZldcIixcblx0XCJ2ZXJjZWxMb2dvXCI6IFwicGFnZV92ZXJjZWxMb2dvX19ZWUZsMVwiLFxuXHRcInJvdGF0ZVwiOiBcInBhZ2Vfcm90YXRlX194SWlvTVwiXG59O1xuXG5tb2R1bGUuZXhwb3J0cy5fX2NoZWNrc3VtID0gXCJiZWViNDBhNmY2OGNcIlxuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(rsc)/./app/page.module.css\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"148de0c3c1ed\");\nif (false) {}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9hcHAvZ2xvYmFscy5jc3MiLCJtYXBwaW5ncyI6Ijs7OztBQUFBLGlFQUFlLGNBQWM7QUFDN0IsSUFBSSxLQUFVLEVBQUUsRUFBdUIiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9pbnZlbnRvcnktbWFuYWdlbWVudC8uL2FwcC9nbG9iYWxzLmNzcz83MjQ4Il0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBkZWZhdWx0IFwiMTQ4ZGUwYzNjMWVkXCJcbmlmIChtb2R1bGUuaG90KSB7IG1vZHVsZS5ob3QuYWNjZXB0KCkgfVxuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(rsc)/./app/globals.css\n");
 
 /***/ }),
 
@@ -191,7 +335,25 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Home)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(rsc)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/image */ \"(rsc)/./node_modules/next/dist/api/image.js\");\n/* harmony import */ var _page_module_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./page.module.css */ \"(rsc)/./app/page.module.css\");\n/* harmony import */ var _page_module_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_page_module_css__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\nfunction Home() {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"main\", {\n        className: (_page_module_css__WEBPACK_IMPORTED_MODULE_2___default().main),\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: (_page_module_css__WEBPACK_IMPORTED_MODULE_2___default().description),\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                        children: [\n                            \"Get started by editing\\xa0\",\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"code\", {\n                                className: (_page_module_css__WEBPACK_IMPORTED_MODULE_2___default().code),\n                                children: \"app/page.js\"\n                            }, void 0, false, {\n                                fileName: \"E:\\\\practice\\\\Pantry-tracker\\\\app\\\\page.js\",\n                                lineNumber: 10,\n                                columnNumber: 11\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"E:\\\\practice\\\\Pantry-tracker\\\\app\\\\page.js\",\n                        lineNumber: 8,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                            href: \"https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app\",\n                            target: \"_blank\",\n                            rel: \"noopener noreferrer\",\n                            children: [\n                                \"By\",\n                                \" \",\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_image__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n                                    src: \"/vercel.svg\",\n                                    alt: \"Vercel Logo\",\n                                    className: (_page_module_css__WEBPACK_IMPORTED_MODULE_2___default().vercelLogo),\n                                    width: 100,\n                                    height: 24,\n                                    priority: true\n                                }, void 0, false, {\n                                    fileName: \"E:\\\\practice\\\\Pantry-tracker\\\\app\\\\page.js\",\n                                    lineNumber: 19,\n                                    columnNumber: 13\n                                }, this)\n                            ]\n                        }, void 0, true, {\n                            fileName: \"E:\\\\practice\\\\Pantry-tracker\\\\app\\\\page.js\",\n                            lineNumber: 13,\n                            columnNumber: 11\n                        }, this)\n                    }, void 0, false, {\n                        fileName: \"E:\\\\practice\\\\Pantry-tracker\\\\app\\\\page.js\",\n                        lineNumber: 12,\n                        columnNumber: 9\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"E:\\\\practice\\\\Pantry-tracker\\\\app\\\\page.js\",\n                lineNumber: 7,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: (_page_module_css__WEBPACK_IMPORTED_MODULE_2___default().center),\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_image__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n                    className: (_page_module_css__WEBPACK_IMPORTED_MODULE_2___default().logo),\n                    src: \"/next.svg\",\n                    alt: \"Next.js Logo\",\n                    width: 180,\n                    height: 37,\n                    priority: true\n                }, void 0, false, {\n                    fileName: \"E:\\\\practice\\\\Pantry-tracker\\\\app\\\\page.js\",\n                    lineNumber: 32,\n                    columnNumber: 9\n                }, this)\n            }, void 0, false, {\n                fileName: \"E:\\\\practice\\\\Pantry-tracker\\\\app\\\\page.js\",\n                lineNumber: 31,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: (_page_module_css__WEBPACK_IMPORTED_MODULE_2___default().grid),\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                        href: \"https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app\",\n                        className: (_page_module_css__WEBPACK_IMPORTED_MODULE_2___default().card),\n                        target: \"_blank\",\n                        rel: \"noopener noreferrer\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h2\", {\n                                children: [\n                                    \"Docs \",\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                        children: \"->\"\n                                    }, void 0, false, {\n                                        fileName: \"E:\\\\practice\\\\Pantry-tracker\\\\app\\\\page.js\",\n                                        lineNumber: 50,\n                                        columnNumber: 18\n                                    }, this)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"E:\\\\practice\\\\Pantry-tracker\\\\app\\\\page.js\",\n                                lineNumber: 49,\n                                columnNumber: 11\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                children: \"Find in-depth information about Next.js features and API.\"\n                            }, void 0, false, {\n                                fileName: \"E:\\\\practice\\\\Pantry-tracker\\\\app\\\\page.js\",\n                                lineNumber: 52,\n                                columnNumber: 11\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"E:\\\\practice\\\\Pantry-tracker\\\\app\\\\page.js\",\n                        lineNumber: 43,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                        href: \"https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app\",\n                        className: (_page_module_css__WEBPACK_IMPORTED_MODULE_2___default().card),\n                        target: \"_blank\",\n                        rel: \"noopener noreferrer\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h2\", {\n                                children: [\n                                    \"Learn \",\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                        children: \"->\"\n                                    }, void 0, false, {\n                                        fileName: \"E:\\\\practice\\\\Pantry-tracker\\\\app\\\\page.js\",\n                                        lineNumber: 62,\n                                        columnNumber: 19\n                                    }, this)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"E:\\\\practice\\\\Pantry-tracker\\\\app\\\\page.js\",\n                                lineNumber: 61,\n                                columnNumber: 11\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                children: \"Learn about Next.js in an interactive course with\\xa0quizzes!\"\n                            }, void 0, false, {\n                                fileName: \"E:\\\\practice\\\\Pantry-tracker\\\\app\\\\page.js\",\n                                lineNumber: 64,\n                                columnNumber: 11\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"E:\\\\practice\\\\Pantry-tracker\\\\app\\\\page.js\",\n                        lineNumber: 55,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                        href: \"https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app\",\n                        className: (_page_module_css__WEBPACK_IMPORTED_MODULE_2___default().card),\n                        target: \"_blank\",\n                        rel: \"noopener noreferrer\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h2\", {\n                                children: [\n                                    \"Templates \",\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                        children: \"->\"\n                                    }, void 0, false, {\n                                        fileName: \"E:\\\\practice\\\\Pantry-tracker\\\\app\\\\page.js\",\n                                        lineNumber: 74,\n                                        columnNumber: 23\n                                    }, this)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"E:\\\\practice\\\\Pantry-tracker\\\\app\\\\page.js\",\n                                lineNumber: 73,\n                                columnNumber: 11\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                children: \"Explore starter templates for Next.js.\"\n                            }, void 0, false, {\n                                fileName: \"E:\\\\practice\\\\Pantry-tracker\\\\app\\\\page.js\",\n                                lineNumber: 76,\n                                columnNumber: 11\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"E:\\\\practice\\\\Pantry-tracker\\\\app\\\\page.js\",\n                        lineNumber: 67,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                        href: \"https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app\",\n                        className: (_page_module_css__WEBPACK_IMPORTED_MODULE_2___default().card),\n                        target: \"_blank\",\n                        rel: \"noopener noreferrer\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h2\", {\n                                children: [\n                                    \"Deploy \",\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                        children: \"->\"\n                                    }, void 0, false, {\n                                        fileName: \"E:\\\\practice\\\\Pantry-tracker\\\\app\\\\page.js\",\n                                        lineNumber: 86,\n                                        columnNumber: 20\n                                    }, this)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"E:\\\\practice\\\\Pantry-tracker\\\\app\\\\page.js\",\n                                lineNumber: 85,\n                                columnNumber: 11\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                children: \"Instantly deploy your Next.js site to a shareable URL with Vercel.\"\n                            }, void 0, false, {\n                                fileName: \"E:\\\\practice\\\\Pantry-tracker\\\\app\\\\page.js\",\n                                lineNumber: 88,\n                                columnNumber: 11\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"E:\\\\practice\\\\Pantry-tracker\\\\app\\\\page.js\",\n                        lineNumber: 79,\n                        columnNumber: 9\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"E:\\\\practice\\\\Pantry-tracker\\\\app\\\\page.js\",\n                lineNumber: 42,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"E:\\\\practice\\\\Pantry-tracker\\\\app\\\\page.js\",\n        lineNumber: 6,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9hcHAvcGFnZS5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7O0FBQStCO0FBQ1E7QUFFeEIsU0FBU0U7SUFDdEIscUJBQ0UsOERBQUNDO1FBQUtDLFdBQVdILDhEQUFXOzswQkFDMUIsOERBQUNJO2dCQUFJRCxXQUFXSCxxRUFBa0I7O2tDQUNoQyw4REFBQ007OzRCQUFFOzBDQUVELDhEQUFDQztnQ0FBS0osV0FBV0gsOERBQVc7MENBQUU7Ozs7Ozs7Ozs7OztrQ0FFaEMsOERBQUNJO2tDQUNDLDRFQUFDSTs0QkFDQ0MsTUFBSzs0QkFDTEMsUUFBTzs0QkFDUEMsS0FBSTs7Z0NBQ0w7Z0NBQ0k7OENBQ0gsOERBQUNaLGtEQUFLQTtvQ0FDSmEsS0FBSTtvQ0FDSkMsS0FBSTtvQ0FDSlYsV0FBV0gsb0VBQWlCO29DQUM1QmUsT0FBTztvQ0FDUEMsUUFBUTtvQ0FDUkMsUUFBUTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7MEJBTWhCLDhEQUFDYjtnQkFBSUQsV0FBV0gsZ0VBQWE7MEJBQzNCLDRFQUFDRCxrREFBS0E7b0JBQ0pJLFdBQVdILDhEQUFXO29CQUN0QlksS0FBSTtvQkFDSkMsS0FBSTtvQkFDSkUsT0FBTztvQkFDUEMsUUFBUTtvQkFDUkMsUUFBUTs7Ozs7Ozs7Ozs7MEJBSVosOERBQUNiO2dCQUFJRCxXQUFXSCw4REFBVzs7a0NBQ3pCLDhEQUFDUTt3QkFDQ0MsTUFBSzt3QkFDTE4sV0FBV0gsOERBQVc7d0JBQ3RCVSxRQUFPO3dCQUNQQyxLQUFJOzswQ0FFSiw4REFBQ1c7O29DQUFHO2tEQUNHLDhEQUFDQztrREFBSzs7Ozs7Ozs7Ozs7OzBDQUViLDhEQUFDakI7MENBQUU7Ozs7Ozs7Ozs7OztrQ0FHTCw4REFBQ0U7d0JBQ0NDLE1BQUs7d0JBQ0xOLFdBQVdILDhEQUFXO3dCQUN0QlUsUUFBTzt3QkFDUEMsS0FBSTs7MENBRUosOERBQUNXOztvQ0FBRztrREFDSSw4REFBQ0M7a0RBQUs7Ozs7Ozs7Ozs7OzswQ0FFZCw4REFBQ2pCOzBDQUFFOzs7Ozs7Ozs7Ozs7a0NBR0wsOERBQUNFO3dCQUNDQyxNQUFLO3dCQUNMTixXQUFXSCw4REFBVzt3QkFDdEJVLFFBQU87d0JBQ1BDLEtBQUk7OzBDQUVKLDhEQUFDVzs7b0NBQUc7a0RBQ1EsOERBQUNDO2tEQUFLOzs7Ozs7Ozs7Ozs7MENBRWxCLDhEQUFDakI7MENBQUU7Ozs7Ozs7Ozs7OztrQ0FHTCw4REFBQ0U7d0JBQ0NDLE1BQUs7d0JBQ0xOLFdBQVdILDhEQUFXO3dCQUN0QlUsUUFBTzt3QkFDUEMsS0FBSTs7MENBRUosOERBQUNXOztvQ0FBRztrREFDSyw4REFBQ0M7a0RBQUs7Ozs7Ozs7Ozs7OzswQ0FFZiw4REFBQ2pCOzBDQUFFOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFPYiIsInNvdXJjZXMiOlsid2VicGFjazovL2ludmVudG9yeS1tYW5hZ2VtZW50Ly4vYXBwL3BhZ2UuanM/YmU2NyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgSW1hZ2UgZnJvbSBcIm5leHQvaW1hZ2VcIjtcbmltcG9ydCBzdHlsZXMgZnJvbSBcIi4vcGFnZS5tb2R1bGUuY3NzXCI7XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEhvbWUoKSB7XG4gIHJldHVybiAoXG4gICAgPG1haW4gY2xhc3NOYW1lPXtzdHlsZXMubWFpbn0+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT17c3R5bGVzLmRlc2NyaXB0aW9ufT5cbiAgICAgICAgPHA+XG4gICAgICAgICAgR2V0IHN0YXJ0ZWQgYnkgZWRpdGluZyZuYnNwO1xuICAgICAgICAgIDxjb2RlIGNsYXNzTmFtZT17c3R5bGVzLmNvZGV9PmFwcC9wYWdlLmpzPC9jb2RlPlxuICAgICAgICA8L3A+XG4gICAgICAgIDxkaXY+XG4gICAgICAgICAgPGFcbiAgICAgICAgICAgIGhyZWY9XCJodHRwczovL3ZlcmNlbC5jb20/dXRtX3NvdXJjZT1jcmVhdGUtbmV4dC1hcHAmdXRtX21lZGl1bT1hcHBkaXItdGVtcGxhdGUmdXRtX2NhbXBhaWduPWNyZWF0ZS1uZXh0LWFwcFwiXG4gICAgICAgICAgICB0YXJnZXQ9XCJfYmxhbmtcIlxuICAgICAgICAgICAgcmVsPVwibm9vcGVuZXIgbm9yZWZlcnJlclwiXG4gICAgICAgICAgPlxuICAgICAgICAgICAgQnl7XCIgXCJ9XG4gICAgICAgICAgICA8SW1hZ2VcbiAgICAgICAgICAgICAgc3JjPVwiL3ZlcmNlbC5zdmdcIlxuICAgICAgICAgICAgICBhbHQ9XCJWZXJjZWwgTG9nb1wiXG4gICAgICAgICAgICAgIGNsYXNzTmFtZT17c3R5bGVzLnZlcmNlbExvZ299XG4gICAgICAgICAgICAgIHdpZHRoPXsxMDB9XG4gICAgICAgICAgICAgIGhlaWdodD17MjR9XG4gICAgICAgICAgICAgIHByaW9yaXR5XG4gICAgICAgICAgICAvPlxuICAgICAgICAgIDwvYT5cbiAgICAgICAgPC9kaXY+XG4gICAgICA8L2Rpdj5cblxuICAgICAgPGRpdiBjbGFzc05hbWU9e3N0eWxlcy5jZW50ZXJ9PlxuICAgICAgICA8SW1hZ2VcbiAgICAgICAgICBjbGFzc05hbWU9e3N0eWxlcy5sb2dvfVxuICAgICAgICAgIHNyYz1cIi9uZXh0LnN2Z1wiXG4gICAgICAgICAgYWx0PVwiTmV4dC5qcyBMb2dvXCJcbiAgICAgICAgICB3aWR0aD17MTgwfVxuICAgICAgICAgIGhlaWdodD17Mzd9XG4gICAgICAgICAgcHJpb3JpdHlcbiAgICAgICAgLz5cbiAgICAgIDwvZGl2PlxuXG4gICAgICA8ZGl2IGNsYXNzTmFtZT17c3R5bGVzLmdyaWR9PlxuICAgICAgICA8YVxuICAgICAgICAgIGhyZWY9XCJodHRwczovL25leHRqcy5vcmcvZG9jcz91dG1fc291cmNlPWNyZWF0ZS1uZXh0LWFwcCZ1dG1fbWVkaXVtPWFwcGRpci10ZW1wbGF0ZSZ1dG1fY2FtcGFpZ249Y3JlYXRlLW5leHQtYXBwXCJcbiAgICAgICAgICBjbGFzc05hbWU9e3N0eWxlcy5jYXJkfVxuICAgICAgICAgIHRhcmdldD1cIl9ibGFua1wiXG4gICAgICAgICAgcmVsPVwibm9vcGVuZXIgbm9yZWZlcnJlclwiXG4gICAgICAgID5cbiAgICAgICAgICA8aDI+XG4gICAgICAgICAgICBEb2NzIDxzcGFuPi0mZ3Q7PC9zcGFuPlxuICAgICAgICAgIDwvaDI+XG4gICAgICAgICAgPHA+RmluZCBpbi1kZXB0aCBpbmZvcm1hdGlvbiBhYm91dCBOZXh0LmpzIGZlYXR1cmVzIGFuZCBBUEkuPC9wPlxuICAgICAgICA8L2E+XG5cbiAgICAgICAgPGFcbiAgICAgICAgICBocmVmPVwiaHR0cHM6Ly9uZXh0anMub3JnL2xlYXJuP3V0bV9zb3VyY2U9Y3JlYXRlLW5leHQtYXBwJnV0bV9tZWRpdW09YXBwZGlyLXRlbXBsYXRlJnV0bV9jYW1wYWlnbj1jcmVhdGUtbmV4dC1hcHBcIlxuICAgICAgICAgIGNsYXNzTmFtZT17c3R5bGVzLmNhcmR9XG4gICAgICAgICAgdGFyZ2V0PVwiX2JsYW5rXCJcbiAgICAgICAgICByZWw9XCJub29wZW5lciBub3JlZmVycmVyXCJcbiAgICAgICAgPlxuICAgICAgICAgIDxoMj5cbiAgICAgICAgICAgIExlYXJuIDxzcGFuPi0mZ3Q7PC9zcGFuPlxuICAgICAgICAgIDwvaDI+XG4gICAgICAgICAgPHA+TGVhcm4gYWJvdXQgTmV4dC5qcyBpbiBhbiBpbnRlcmFjdGl2ZSBjb3Vyc2Ugd2l0aCZuYnNwO3F1aXp6ZXMhPC9wPlxuICAgICAgICA8L2E+XG5cbiAgICAgICAgPGFcbiAgICAgICAgICBocmVmPVwiaHR0cHM6Ly92ZXJjZWwuY29tL3RlbXBsYXRlcz9mcmFtZXdvcms9bmV4dC5qcyZ1dG1fc291cmNlPWNyZWF0ZS1uZXh0LWFwcCZ1dG1fbWVkaXVtPWFwcGRpci10ZW1wbGF0ZSZ1dG1fY2FtcGFpZ249Y3JlYXRlLW5leHQtYXBwXCJcbiAgICAgICAgICBjbGFzc05hbWU9e3N0eWxlcy5jYXJkfVxuICAgICAgICAgIHRhcmdldD1cIl9ibGFua1wiXG4gICAgICAgICAgcmVsPVwibm9vcGVuZXIgbm9yZWZlcnJlclwiXG4gICAgICAgID5cbiAgICAgICAgICA8aDI+XG4gICAgICAgICAgICBUZW1wbGF0ZXMgPHNwYW4+LSZndDs8L3NwYW4+XG4gICAgICAgICAgPC9oMj5cbiAgICAgICAgICA8cD5FeHBsb3JlIHN0YXJ0ZXIgdGVtcGxhdGVzIGZvciBOZXh0LmpzLjwvcD5cbiAgICAgICAgPC9hPlxuXG4gICAgICAgIDxhXG4gICAgICAgICAgaHJlZj1cImh0dHBzOi8vdmVyY2VsLmNvbS9uZXc/dXRtX3NvdXJjZT1jcmVhdGUtbmV4dC1hcHAmdXRtX21lZGl1bT1hcHBkaXItdGVtcGxhdGUmdXRtX2NhbXBhaWduPWNyZWF0ZS1uZXh0LWFwcFwiXG4gICAgICAgICAgY2xhc3NOYW1lPXtzdHlsZXMuY2FyZH1cbiAgICAgICAgICB0YXJnZXQ9XCJfYmxhbmtcIlxuICAgICAgICAgIHJlbD1cIm5vb3BlbmVyIG5vcmVmZXJyZXJcIlxuICAgICAgICA+XG4gICAgICAgICAgPGgyPlxuICAgICAgICAgICAgRGVwbG95IDxzcGFuPi0mZ3Q7PC9zcGFuPlxuICAgICAgICAgIDwvaDI+XG4gICAgICAgICAgPHA+XG4gICAgICAgICAgICBJbnN0YW50bHkgZGVwbG95IHlvdXIgTmV4dC5qcyBzaXRlIHRvIGEgc2hhcmVhYmxlIFVSTCB3aXRoIFZlcmNlbC5cbiAgICAgICAgICA8L3A+XG4gICAgICAgIDwvYT5cbiAgICAgIDwvZGl2PlxuICAgIDwvbWFpbj5cbiAgKTtcbn1cbiJdLCJuYW1lcyI6WyJJbWFnZSIsInN0eWxlcyIsIkhvbWUiLCJtYWluIiwiY2xhc3NOYW1lIiwiZGl2IiwiZGVzY3JpcHRpb24iLCJwIiwiY29kZSIsImEiLCJocmVmIiwidGFyZ2V0IiwicmVsIiwic3JjIiwiYWx0IiwidmVyY2VsTG9nbyIsIndpZHRoIiwiaGVpZ2h0IiwicHJpb3JpdHkiLCJjZW50ZXIiLCJsb2dvIiwiZ3JpZCIsImNhcmQiLCJoMiIsInNwYW4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(rsc)/./app/page.js\n");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   $$typeof: () => (/* binding */ $$typeof),
+/* harmony export */   __esModule: () => (/* binding */ __esModule),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
+
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`E:\practice\Pantry-tracker\app\page.js`)
+
+// Accessing the __esModule property and exporting $$typeof are required here.
+// The __esModule getter forces the proxy target to create the default export
+// and the $$typeof value is for rendering logic to determine if the module
+// is a client boundary.
+const { __esModule, $$typeof } = proxy;
+const __default__ = proxy.default;
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`E:\practice\Pantry-tracker\app\page.js#default`));
+
 
 /***/ }),
 
@@ -213,7 +375,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fpage&page=%2Fpage&appPaths=%2Fpage&pagePath=private-next-app-dir%2Fpage.js&appDir=E%3A%5Cpractice%5CPantry-tracker%5Capp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=E%3A%5Cpractice%5CPantry-tracker&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@mui","vendor-chunks/@grpc","vendor-chunks/protobufjs","vendor-chunks/@emotion","vendor-chunks/@protobufjs","vendor-chunks/stylis","vendor-chunks/@swc","vendor-chunks/@firebase","vendor-chunks/@babel","vendor-chunks/prop-types","vendor-chunks/idb","vendor-chunks/react-is","vendor-chunks/clsx","vendor-chunks/long","vendor-chunks/object-assign","vendor-chunks/lodash.camelcase","vendor-chunks/hoist-non-react-statics"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fpage&page=%2Fpage&appPaths=%2Fpage&pagePath=private-next-app-dir%2Fpage.js&appDir=E%3A%5Cpractice%5CPantry-tracker%5Capp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=E%3A%5Cpractice%5CPantry-tracker&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
 module.exports = __webpack_exports__;
 
 })();

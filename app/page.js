@@ -9,7 +9,7 @@ import {
   query,
 } from "@firebase/firestore";
 import { Box } from "@mui/system";
-import { Typography } from "@mui/material";
+import { Modal, Typography } from "@mui/material";
 import { firestore } from "@/firebase";
 
 export default function Home() {
@@ -37,7 +37,26 @@ export default function Home() {
 
     if (docSnap.exists()) {
       const { quantity } = docSnap.data();
+      if (quantity === 1) {
+        await deleteDoc(docRef);
+      } else {
+        await setDoc(docRef, { quantity: quantity - 1 });
+      }
     }
+    await updateInventory();
+  };
+
+  const addItem = async (item) => {
+    const docRef = doc(collection(firestore, "inventory"), item);
+    const docSnap = await getDoc(docRef);
+
+    if (docSnap.exists()) {
+      const { quantity } = docSnap.data();
+      await setDoc(docRef, { quantity: quantity + 1 });
+    } else {
+      await setDoc(docRef, { quantity: 1 });
+    }
+    await updateInventory();
   };
 
   useEffect(() => {
@@ -45,8 +64,23 @@ export default function Home() {
   }, []);
   // console.log(updateInventory);
 
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
+
   return (
-    <Box>
+    <Box
+      width="100vw"
+      height="100vh"
+      display="flex"
+      justifyContent="center"
+      alignItems="center"
+      gap={2}
+    >
+      <Modal open={open} onClose={handleClose}>
+        <Box position="absolute" top="50%" left="50%">
+          Close
+        </Box>
+      </Modal>
       <Typography variant="h1">Inventory Management</Typography>
       {inventory.forEach((item) => {
         return (
@@ -56,7 +90,7 @@ export default function Home() {
           </>
         );
       })}
-      {inventory.map((item) => item.name)}
+      {/* {inventory.map((item) => item.name)} */}
     </Box>
   );
 }
